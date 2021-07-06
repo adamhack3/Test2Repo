@@ -1,0 +1,27 @@
+{
+    "AHR" : {
+        "code": "designs_aHR_5f7c5e830e2f2200694605ac",
+        "context": "Customer",
+        "attributes": {
+            "Geometry" : {
+                "code": "attributes_itemsGeometry",
+                "parent": "designInterfaces_items",
+                "context": "Core",
+                "permissions": [
+                    {
+                      "userGroupName": "Licensing Group",
+                      "userGroupCode": "userGroups_testLicGroup_60dd7fd61bee360254d2b7bb",
+                      "parent": "designInterfaces_filesAttachable",
+                      "allows": "ReadWrite"
+                    },
+                    {
+                      "userGroupName": "Licensing Group",
+                      "userGroupCode": "userGroups_testLicGroup_60dd7fd61bee360254d2b7bb",
+                      "parent": "designInterfaces_tasks",
+                      "allows": "ReadWrite"
+                    }
+                  ]
+            }
+        }
+    }
+}
