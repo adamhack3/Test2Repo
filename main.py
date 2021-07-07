@@ -12,3 +12,5 @@ def hello_world():
     return wp
 
 jp.justpy(hello_world)
+
+print("Done")
