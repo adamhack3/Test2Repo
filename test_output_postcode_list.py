@@ -46,7 +46,7 @@ def main(postcode):
     return response
 
 def test_main():
-    my_string 
+    my_string # get input here
     assert main("E8 3LH") != None
 
 
